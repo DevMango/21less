@@ -1,0 +1,84 @@
+\chapter{Replikation und Lokalität}
+\label{les:3}
+
+\begin{chapquote}{Lewis Carroll, \textit{Alice im Wunderland}}
+Demnächst kam eine ärgerliche Stimme -- die des Kaninchens -- \enquote{Pat! Pat! wo bist du?}
+\end{chapquote}
+
+Die Quantenmechanik außen vor gelassen, ist die Lokalisierung kein echtes
+Problem in unserer physischen Welt. Die Frage \textit{\enquote{Wo ist X?}} kann
+sinnvoll beantwortet werden, egal ob X eine Person oder ein Objekt ist. In der
+digitalen Welt ist die Frage, \textit{wo} man sich befindet bereits schwierig,
+aber nicht unmöglich zu beantworten. Wo sind deine E-Mails wirklich? Eine
+schlechte Antwort wäre \enquote{in der Cloud}, da diese nur der Computer eines
+anderen ist. Dennoch, wenn du alle Speichermedien welche deine Mails aufzeichnet
+finden willst, könntest du diese theoretisch finden.
+
+Bei Bitcoin ist die Frage nach dem \enquote{Wo} wirklich knifflig. Wo genau sind
+deine Bitcoins?
+
+\begin{quotation}\begin{samepage}
+\enquote{
+Ich öffnete die Augen sah mich um und stellte die unvermeidliche, die
+traditionelle, die bedauerlicherweise abgedroschene postoperative Frage:
+\enquote{Wo bin ich?}
+}
+\begin{flushright} -- Daniel Dennett\footnote{Daniel Dennett, \textit{Where Am I?}~\cite{where-am-i}}
+\end{flushright}\end{samepage}\end{quotation}
+
+Die Frage stellt sich aus zweifacher Hinsicht: Erstens wird der
+\enquote{distributed Ledger} (das \enquote{verteilte Kontenbuch}) durch
+vollständige Replikation verteilt, d.h. dieses Kontenbuch ist überall.
+Zweitens gibt es keine Bitcoins. Nicht nur physisch, sondern auch technisch
+gesehen nicht.
+
+Bitcoin behält den Überblick über einen Satz von \enquote{\textit{unspent
+transaction outputs}} (UTXOs) ohne sich jemals auf eine Entität beziehen zu
+müssen, die einen Bitcoin repräsentiert. Die Existenz eines Bitcoin wird von
+diesen UTXOs abgeleitet: jeder Eintrag mit 100 Millionen Basiseinheiten wird als
+Bitcoin bezeichnet.
+
+\begin{quotation}\begin{samepage}
+\enquote{Wo ist es in diesem Moment, im Transit? [\ldots] Erstens, es gibt keine
+Bitcoins. Es gibt sie einfach nicht. Sie existieren nicht. Es gibt
+Ledger-Einträge in einem Ledger, der gemeinsam genutzt wird [\ldots] Sie
+existieren nicht an einem physischen Ort. Der Ledger existiert im Wesentlichen
+an jedem physischen Ort. Geographie macht hier keinen Sinn --- sie wird dir
+nicht helfen dein Regelwerk festzulegen.}
+\begin{flushright} -- Peter Van Valkenburgh\footnote{Peter Van Valkenburgh zu Gast bei dem \textit{What Bitcoin Did} Podcast, Episode 49 \cite{wbd049}}
+\end{flushright}\end{samepage}\end{quotation}
+
+Also was besitzt du eigentlich wenn du sagst: \textit{\enquote{Ich habe einen
+Bitcoin}}, wenn es keine Bitcoins gibt? Nun erinnerst du dich an all diese
+komischen Worte, die du bei der Einrichtung deiner Wallet aufschreiben musstest?
+Wie sich herausstellt, sind dies die Zauberworte und das was du besitzt ist ein
+Zauber, mit dem du Einträge in das Bitcoin-Kontenbuch machen kannst — die
+Schlüssel um Bitcoins zu \enquote{bewegen}. Deshalb sind deine privaten
+Schlüssel im Grunde genommen deine Bitcoins. Wenn du denkst, dass ich mir das
+alles ausgedacht habe, kannst du mir gerne deine privaten Schlüssel schicken.
+
+\paragraph{Bitcoin hat mir beigebracht, dass Lokalität eine knifflige
+Angelegenheit ist.}
+
+% ---
+%
+% #### Through the Looking-Glass
+%
+% - [The Magic Dust of Cryptography: How digital information is changing our society][a magic spell]
+%
+% #### Down the Rabbit Hole
+%
+% - [Where Am I?][Daniel Dennett] by Daniel Dennett
+% - 🎧 [Peter Van Valkenburg on Preserving the Freedom to Innovate with Public Blockchains][wbd049] WBD #49 hosted by Peter McCormack
+%
+% <!-- Through the Looking-Glass -->
+% [a magic spell]: {% post_url /bitcoin/2018-08-17-the-magic-dust-of-cryptography %}
+%
+% <!-- Down the Rabbit Hole -->
+% [Daniel Dennett]: https://www.lehigh.edu/~mhb0/Dennett-WhereAmI.pdf
+% [1st Amendment]: https://en.wikipedia.org/wiki/First_Amendment_to_the_United_States_Constitution
+% [wbd049]: https://www.whatbitcoindid.com/podcast/coin-centers-peter-van-valkenburg-on-preserving-the-freedom-to-innovate-with-public-blockchains
+%
+% <!-- Wikipedia -->
+% [alice]: https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland
+% [carroll]: https://en.wikipedia.org/wiki/Lewis_Carroll
